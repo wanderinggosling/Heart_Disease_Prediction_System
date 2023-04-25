@@ -1,0 +1,47 @@
+table {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+  }
+
+  th:first-child {
+    width: 60%;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(odd) {
+    background-color: lightgray;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  .empty-form{
+    text-align: center;
+  }
+
+  .download-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .result-container{
+    position: sticky;
+    top: 0;
+  }

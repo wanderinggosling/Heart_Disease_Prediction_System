@@ -1,0 +1,99 @@
+
+.user-profile {
+  background-color: whitesmoke;
+  font-family: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 3vh;
+}
+
+.user-profile h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-details img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.profile-details p {
+  font-size: 1.2rem;
+  margin: 5px;
+  text-align: left;
+}
+
+.profile-details strong {
+  font-weight: bold;
+}
+
+#test-history {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+#test-history th {
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+#test-history td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#test-history td:last-child {
+  text-align: center;
+}
+
+#test-history button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#test-history button:hover {
+  background-color: #0062cc;
+}
+
+.avatar{
+  margin-right: 2vh;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-details {
+    flex-direction: column;
+  }
+
+  .profile-details img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  #test-history {
+    font-size: 0.8rem;
+  }
+}
+

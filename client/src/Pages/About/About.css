@@ -1,0 +1,47 @@
+.about-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about-section h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    font-family: auto;
+
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: gold;
+    font-family: auto;
+  }
+  
+  .about-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    color: rgb(230, 122, 27);
+  }
+  
+  .about-section li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 20px;
+    max-width: 500px;
+    text-align: left;
+    font-family: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .about-section li {
+      max-width: 100%;
+    }
+  }
+  
